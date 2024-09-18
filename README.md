@@ -1,5 +1,5 @@
 # Fabrique
-Een strategisch ontwerpbureau gevestigd in Amsterdam.
+A strategic agency based in Amsterdam.
 
 [Fabrique.nl](https://www.fabrique.nl/)
 
