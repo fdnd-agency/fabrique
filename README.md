@@ -18,7 +18,7 @@ based on collection object information for teh Qatar Museums website we need a s
 
 [Backlog]()
 
-[Design]()
+[Design](https://github.com/fdnd-agency/fabrique/tree/main/design)
 
 [Content]()
 
