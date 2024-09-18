@@ -20,6 +20,6 @@ based on collection object information for teh Qatar Museums website we need a s
 
 [Design](https://github.com/fdnd-agency/fabrique/tree/main/design)
 
-[Content]()
+[Content](https://github.com/fdnd-agency/fabrique/tree/main/content)
 
-[API]()
+[API](https://fdnd-agency.directus.app/items/fabrique_art_objects)
