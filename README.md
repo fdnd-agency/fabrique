@@ -1,15 +1,25 @@
 # Fabrique
+Een strategisch ontwerpbureau gevestigd in Amsterdam.
 
-## Online Collection Qatar museums 
-...
+[Fabrique.nl](https://www.fabrique.nl/)
+
+## Qatar museums 
+Qatar Museums (QM) is the nation's preeminent institution for art and culture, providing authentic and inspiring cultural experiences through a growing network of museums, heritage sites, festivals, public art installations and programmes.
 
 ## Design challenge
-...
+Design and develop new features for the Qatar Museums website.
+
+### Features
+
+#### Online Collections
+based on collection object information for teh Qatar Museums website we need a seemingly infinite canvas with objects where users interact with (panning and zooming). This needs to be a ‘SEO friendly’ canvas, so the actual use of the canvas HTML element will most likely not suffice.
 
 ## Resources
 
-[Backlog](...)
+[Backlog]()
 
-[Design](...)
+[Design]()
 
-[API](...)
+[Content]()
+
+[API]()
