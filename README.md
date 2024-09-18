@@ -16,7 +16,7 @@ based on collection object information for teh Qatar Museums website we need a s
 
 ## Resources
 
-[Backlog]()
+[Backlog](https://github.com/orgs/fdnd-agency/projects/38/)
 
 [Design](https://github.com/fdnd-agency/fabrique/tree/main/design)
 
