@@ -43,7 +43,7 @@ work in any major desktop browser.
 - Pannable (hence infinite)
 - Filterable (on hover)
 
-### good to mention
+### Good to mention
 
 - Infinite canvas logic, think it through before starting
 - Fonts are ffa (use any Latin and Arabic font)
