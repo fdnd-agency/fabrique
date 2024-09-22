@@ -66,7 +66,7 @@ work in any major desktop browser.
 
 ## Resources
 
-[Backlog](https://github.com/orgs/fdnd-agency/projects/38/)
+<!-- [Backlog](https://github.com/orgs/fdnd-agency/projects/38/) -->
 
 [Design](https://github.com/fdnd-agency/fabrique/tree/main/design)
 
