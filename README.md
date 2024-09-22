@@ -72,4 +72,6 @@ work in any major desktop browser.
 
 [Content](https://github.com/fdnd-agency/fabrique/tree/main/content)
 
+## Resources Semester 2
+
 [API](https://fdnd-agency.directus.app/items/fabrique_art_objects)
