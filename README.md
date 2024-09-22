@@ -32,36 +32,24 @@ work in any major desktop browser.
 
 ### Features
 
-•API driven
-
-•Responsive
-
-•SEO friendly
-
-•Accessible (WCAG AA)
-
-•Multilingual (LTR & RTL)
-
-•Performant
-
-•Randomized objects on load
-
-•Zoomable (200% in, 50% out)
-
-•Pannable (hence infinite)
-
-•Filterable (on hover)
+- API driven
+- Responsive
+- SEO friendly
+- Accessible (WCAG AA)
+- Multilingual (LTR & RTL)
+- Performant
+- Randomized objects on load
+- Zoomable (200% in, 50% out)
+- Pannable (hence infinite)
+- Filterable (on hover)
 
 ### good to mention
-•Infinite canvas logic, think it through before starting
 
-•Fonts are ffa (use any Latin and Arabic font)
-
-•Navigation can be hardcoded (EN / AR)
-
-•Hamburger (menu overlay) can be dismissed
-
-•Search is just a field, no endpoint
+- Infinite canvas logic, think it through before starting
+- Fonts are ffa (use any Latin and Arabic font)
+- Navigation can be hardcoded (EN / AR)
+- Hamburger (menu overlay) can be dismissed
+- Search is just a field, no endpoint
 
 
 ## Resources
