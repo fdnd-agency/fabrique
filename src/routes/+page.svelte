@@ -1,11 +1,12 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import Search from '$lib/Search.svelte';
+</script>
 
 <div class="wrap">
     <div class="search">
-       <input type="text" class="searchTerm" placeholder="What are you looking for?">
+       <input type="text" class="searchTerm" placeholder="Search the collection">
        <button type="submit" class="searchButton">
-         <i class="fa fa-search"></i>
+         <Search/>
       </button>
     </div>
  </div>
@@ -13,42 +14,60 @@
 <style>
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
+* {
+    transition: .2s;
+}
+
 .search {
-  width: 100%;
+  width: 100vw;
   position: relative;
   display: flex;
 }
 
 .searchTerm {
   width: 100%;
-  border: 3px solid #00B4CC;
+  border: 2px solid black;
   border-right: none;
-  padding: 5px;
-  height: 20px;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-  color: #9DBFAF;
+  padding: .5em 0 0 .5em;
+  color: #c1c1c1;
+  font-size: 25px;
+  text-decoration: underline black;
 }
 
 .searchTerm:focus{
-  color: #00B4CC;
+  color: black;
 }
 
 .searchButton {
-  width: 40px;
-  height: 36px;
-  border: 1px solid #00B4CC;
-  background: #00B4CC;
+  width: 4em;
+  height: 5.3em;
+  padding: .5em;
+  border-left: none;
+  background: white;
   text-align: center;
-  color: #fff;
-  border-radius: 0 5px 5px 0;
+  justify-content: center;
+  color: black;
   cursor: pointer;
-  font-size: 20px;
 }
 
 /*Resize the wrap to see the search bar change!*/
 .wrap{
-  width: 30%;
-  padding: 1em;
+  position: absolute;
+  bottom: 0;
+}
+
+@media only screen and (min-width: 600px) {
+    .wrap{
+  position: absolute;
+  bottom: 4em;
+  left: 2em;
+  right: 2em;
+}
+
+.search {
+  width: 90vw;
+  position: relative;
+  display: flex;
+}
 }
 </style>
