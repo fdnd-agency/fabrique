@@ -1,6 +1,9 @@
 <script>
     import Search from '$lib/Search.svelte';
+    let filterText = '';
 </script>
+
+<input type="text" bind:value={filterText} placeholder="Search by title" />
 
 <div class="wrap">
     <div class="search">
