@@ -3,11 +3,10 @@
     let filterText = '';
 </script>
 
-<input type="text" bind:value={filterText} placeholder="Search by title" />
 
 <div class="wrap">
     <div class="search">
-       <input type="text" class="searchTerm" placeholder="Search the collection">
+       <input type="text" class="searchTerm" bind:value={filterText} placeholder="Search the collection">
        <button type="submit" class="searchButton">
          <Search/>
       </button>
@@ -15,10 +14,9 @@
  </div>
 
 <style>
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
 * {
     transition: .2s;
+    font-family: 'DIN Next', sans-serif;
 }
 
 .search {
