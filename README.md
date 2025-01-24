@@ -5,6 +5,7 @@
 
 ## Description
 Qatar Museums (QM) is the nation's preeminent institution for art and culture, providing authentic and inspiring cultural experiences through a growing network of museums, heritage sites, festivals, public art installations and programmes.
+
 We've build a somewhat infinite canvas where users can scroll to multiple directions. The page also has some filters, which once clicked dims the objects that are not applicable to that filter.
 
 ## Live link
