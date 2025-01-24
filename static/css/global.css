@@ -1,0 +1,68 @@
+:root {
+  /* colors */
+  --default-text-color-dark:#000;
+  --default-text-color-light:#fff;
+  --body-background-color:#fff;
+  --navbar-background-color:#fff;
+  --navbar-ticket-color:#FAFF1E;
+  --nav-bg: #ffff00;
+  --filter-background-color:#464646;
+  --filter-background-color-hover:#7d7d7d;  
+
+  /* font */
+  
+  --default-font-family:'DIN Next', sans-serif;
+  --default-font-size: 16px;
+  --font-weigh-navbar: 600;
+
+  --h1-font:34px;
+  --h2-font:2px;
+  --h3-font:22px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+    font-family: 'DIN Next', sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h3 {
+  margin: 0 0 1em 0.5em;
+}
+
+
+/* LENIS CSS */
+html.lenis,
+html.lenis body {
+height: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+overflow: clip;
+}
+
+.lenis.lenis-smooth iframe {
+pointer-events: none;
+}
+
+

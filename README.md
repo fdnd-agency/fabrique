@@ -1,65 +1,61 @@
-
-![image](https://github.com/user-attachments/assets/4baf915e-ed4f-4c3f-9006-47c28f7b4753)
-
-A strategic agency based in Amsterdam.
-
-[Fabrique.nl](https://www.fabrique.nl/)
-
-# Qatar museums 
-Qatar Museums (QM) is the nation's preeminent institution for art and culture, providing authentic and inspiring 
-cultural experiences through a growing network of museums, heritage sites, festivals, public art installations and 
-programmes.
-
-## Design challenge
-Design and develop new features for the Qatar Museums Online Collection website.
-
-There are a few features that we would like to see if you can design and develop. The design has a homepage with a so
-called infinite canvas where users can scroll to in all directions (vertical and horizontal). The canvas is filled with
-the objects from the API (randomized on load) and are repeated randomly on the canvas. The objects are clickable and when clicked they open 
-a detail page of this object (out of scope for this challenge). 
-
-The landingpage has filters, which on hover 'dim' objects that are not applicable to that filter. The filters are 
-clickable as well, and lead the user to the search page (not in scope).
-
-This page needs to be SEO friendly, accessible (keyboard navigation) and responsive (work on mobile and tablet as well).
-If you can make it perform well, that would be a big plus.
-To top it off, this pages is also multilingual (English and Arabic). Which means you need to accomodate for RTL text 
-direction as well.
-
-Progressive enhancement is allowed (e.g. slightly different behaviour on mobile or older browsers) but it should 
-work in any major desktop browser.
+# Qatar museums
+![Qatar Museums Mock up](https://github.com/user-attachments/assets/d9b79b0e-ec08-4e4b-8779-15d75dbc0eaf)
 
 
-### Features
+## Inleiding
+Dit project betreft het ontwerpen en ontwikkelen van nieuwe functies voor de Qatar Museums online collection website. 
+De hoofdpagina bevat een oneindig canvas waarop gebruikers in alle richtingen kunnen scrollen.
+Het canvas toont objecten die willekeurig geladen en geplaatst zijn, en deze objecten zijn aanklikbaar.
+Er is ook een filteroptie die niet toepasselijke objecten dimt bij hover.
 
-- API driven
-- Responsive
-- SEO friendly
-- Accessible (WCAG AA)
-- Multilingual (LTR & RTL)
-- Performant
-- Randomized objects on load
-- Zoomable (200% in, 50% out)
-- Pannable (hence infinite)
-- Filterable (on hover)
+Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
-### Good to mention
+## Functies
+- Oneindig canvas: Scroll in alle richtingen met willekeurige objecten.
+- Aanklikbare objecten: Klik voor meer details.
+- Filters: Dim objecten bij hover, klik voor meer filters.
+- SEO-vriendelijk: Pagina geoptimaliseerd voor zoekmachines.
+- Toegankelijkheid: Ondersteunt navigatie met toetsenbord.
+- Responsief ontwerp: Werkt op mobiel, tablet en desktop.
+- Meertalig: Ondersteuning voor Engels en Arabisch (RTL).
 
-- Infinite canvas logic, think it through before starting
-- Fonts are ffa (use any Latin and Arabic font)
-- Navigation can be hardcoded (EN / AR)
-- Hamburger (menu overlay) can be dismissed
-- Search is just a field, no endpoint
+# Installatie
+## create-svelte
 
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 
-## Resources
+##Installatie 
+## Creating a project
 
-<!-- [Backlog](https://github.com/orgs/fdnd-agency/projects/38/) -->
+If you're seeing this, you've probably already done this step. Congrats!
 
-[Design](https://github.com/fdnd-agency/fabrique/tree/main/design)
+```bash
+# create a new project in the current directory
+npx sv create
 
-[Content](https://github.com/fdnd-agency/fabrique/tree/main/content)
+# create a new project in my-app
+npx sv create my-app
+```
 
-## Resources Semester 2
+## Developing
 
-[API](https://fdnd-agency.directus.app/items/fabrique_art_objects)
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
+```bash
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
