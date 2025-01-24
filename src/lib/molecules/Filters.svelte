@@ -1,22 +1,26 @@
 <script>
   import { activeFilter } from "$lib/store";
+
+  function clickFilter(filter) {
+    activeFilter.set(filter);
+  }
 </script>
 
 <ul>
   <li>
-    <button>All objects</button>
+    <button on:click={() => clickFilter("*")}>All objects</button>
   </li>
   <li>
-    <button>Pottery</button>
+    <button on:click={() => clickFilter("Pottery")}>Pottery</button>
   </li>
   <li>
-    <button>Islamic art</button>
+    <button on:click={() => clickFilter("Islamic art")}>Islamic art</button>
   </li>
   <li>
-    <button>Tapestry</button>
+    <button on:click={() => clickFilter("Tapestry")}>Tapestry</button>
   </li>
   <li>
-    <button>Glass</button>
+    <button on:click={() => clickFilter("Glass")}>Glass</button>
   </li>
 </ul>
 

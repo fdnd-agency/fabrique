@@ -1,3 +1,4 @@
-// import { writable } from "svelte/store";
+import { writable } from "svelte/store";
 
-// export const activeFilter = writable("*");
+export const activeFilter = writable("*");
+

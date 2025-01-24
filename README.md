@@ -1,61 +1,49 @@
 # Qatar museums
-![Qatar Museums Mock up](https://github.com/user-attachments/assets/d9b79b0e-ec08-4e4b-8779-15d75dbc0eaf)
+[<img src="https://github.com/user-attachments/assets/a1892e54-ecf1-489a-af01-8dec6cdf1081" width="900px">
+](https://qatarmuseums.agency.fdnd.nl/)
 
 
-## Inleiding
-Dit project betreft het ontwerpen en ontwikkelen van nieuwe functies voor de Qatar Museums online collection website. 
-De hoofdpagina bevat een oneindig canvas waarop gebruikers in alle richtingen kunnen scrollen.
-Het canvas toont objecten die willekeurig geladen en geplaatst zijn, en deze objecten zijn aanklikbaar.
-Er is ook een filteroptie die niet toepasselijke objecten dimt bij hover.
+## Description
+Qatar Museums (QM) is the nation's preeminent institution for art and culture, providing authentic and inspiring cultural experiences through a growing network of museums, heritage sites, festivals, public art installations and programmes.
+We've build a somewhat infinite canvas where users can scroll to multiple directions. The page also has some filters, which once clicked dims the objects that are not applicable to that filter.
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+## Live link
+View the live infinite canvas project [here](https://qatarmuseums.agency.fdnd.nl/
+).
 
-## Functies
-- Oneindig canvas: Scroll in alle richtingen met willekeurige objecten.
-- Aanklikbare objecten: Klik voor meer details.
-- Filters: Dim objecten bij hover, klik voor meer filters.
-- SEO-vriendelijk: Pagina geoptimaliseerd voor zoekmachines.
-- Toegankelijkheid: Ondersteunt navigatie met toetsenbord.
-- Responsief ontwerp: Werkt op mobiel, tablet en desktop.
-- Meertalig: Ondersteuning voor Engels en Arabisch (RTL).
+## Techniques / tools
+We've used the following techniques:
+- Sveltekit
+- Lenis
+- HTML
+- CSS
+- JavaScript
+- Directus
+- Vercel
+- VSCode
+- GitHub
 
-# Installatie
-## create-svelte
+## Installation
+First make sure you have node js installed.
+1. Clone this repository
+2. Open the terminal and install npm and lenis
+   ```
+   npm install
+   npm i lenis
+   ```
+3. Run and open the local server at `http://localhost:5174/`
+   ```
+   npm run dev -- --open
+   ```
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## Our team
+This project came together thanks to:
+- [Ellenoor](https://github.com/EBok1)
+- [Rukiya](https://github.com/RukiyaTossou)
+- [Hadil](https://github.com/Hadil66)
 
-##Installatie 
-## Creating a project
+## Contribution
+We've set some [guidelines](https://github.com/Hadil66/fabrique/blob/main/contributing.md) for whomever wants to contribute to this project. 
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## Licence
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Hadil66/fabrique/blob/main/LICENSE) file for details.
