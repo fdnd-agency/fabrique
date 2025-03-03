@@ -2,6 +2,10 @@
 [<img src="https://github.com/user-attachments/assets/a1892e54-ecf1-489a-af01-8dec6cdf1081" width="900px">
 ](https://qatarmuseums.agency.fdnd.nl/)
 
+**Team Sprint 8**  
+Karima, Fatima H, Tessa, Safae, Renzo
+
+
 **Studentenwerk Sprint 5: Fix The Flow** 
 
 |  |  |  | 
