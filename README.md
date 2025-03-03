@@ -19,7 +19,7 @@ Qatar Museums (QM) is the nation's preeminent institution for art and culture, p
 We've build a somewhat infinite canvas where users can scroll to multiple directions. The page also has some filters, which once clicked dims the objects that are not applicable to that filter.
 
 ## Live link
-View the live infinite canvas project [here](https://qatarmuseums.agency.fdnd.nl/
+View the live project [here](https://qatarmuseums.agency.fdnd.nl/
 ).
 
 ## Techniques / tools
