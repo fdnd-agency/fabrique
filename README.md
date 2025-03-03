@@ -12,6 +12,15 @@
 | Süleyman	| [repository](https://github.com/SuleymanHG/fix-the-flow-interactive-website)	| [live site](https://suleymanhg.github.io/fix-the-flow-interactive-website/) 
 | Yamen	| [repository](https://github.com/yamenAl/fix-the-flow-interactive-website)	| [live site](https://yamenal.github.io/fix-the-flow-interactive-website/qatar-museums/) 
 
+**API Endpoints**  
+* https://fdnd-agency.directus.app/items/fabrique_art_objects
+* https://fdnd-agency.directus.app/items/fabrique_artist
+* https://fdnd-agency.directus.app/items/fabrique_museum
+* https://fdnd-agency.directus.app/items/fabrique_style
+* https://fdnd-agency.directus.app/items/fabrique_location
+* https://fdnd-agency.directus.app/items/fabrique_materials
+* https://fdnd-agency.directus.app/items/fabrique_techniques
+
 
 ## Description
 Qatar Museums (QM) is the nation's preeminent institution for art and culture, providing authentic and inspiring cultural experiences through a growing network of museums, heritage sites, festivals, public art installations and programmes.
