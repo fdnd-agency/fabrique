@@ -6,11 +6,11 @@
 
 |  |  |  | 
 | :--------------- | :--------------- | :--------------- |
-| Fatima Zora	| https://github.com/FatimaZelay/fix-the-flow-interactive-website 	| [live site](https://fatimazelay.github.io/fix-the-flow-interactive-website/) 
-| Iris	| https://github.com/irisvw/fix-the-flow-interactive-website 	| [live site](https://irisvw.github.io/fix-the-flow-interactive-website/) 
-| Luc| https://github.com/DeBosOs/fix-the-flow-interactive-website 	| [live site](https://debosos.github.io/fix-the-flow-interactive-website/) 
-| Süleyman	| https://github.com/SuleymanHG/fix-the-flow-interactive-website	| [live site](https://suleymanhg.github.io/fix-the-flow-interactive-website/) 
-| Yamen	| https://github.com/yamenAl/fix-the-flow-interactive-website	| [live site](https://yamenal.github.io/fix-the-flow-interactive-website/qatar-museums/) 
+| Fatima Zora	| [repository](https://github.com/FatimaZelay/fix-the-flow-interactive-website) 	| [live site](https://fatimazelay.github.io/fix-the-flow-interactive-website/) 
+| Iris	| [repository](https://github.com/irisvw/fix-the-flow-interactive-website) 	| [live site](https://irisvw.github.io/fix-the-flow-interactive-website/) 
+| Luc| [repository](https://github.com/DeBosOs/fix-the-flow-interactive-website) 	| [live site](https://debosos.github.io/fix-the-flow-interactive-website/) 
+| Süleyman	| [repository](https://github.com/SuleymanHG/fix-the-flow-interactive-website)	| [live site](https://suleymanhg.github.io/fix-the-flow-interactive-website/) 
+| Yamen	| [repository](https://github.com/yamenAl/fix-the-flow-interactive-website)	| [live site](https://yamenal.github.io/fix-the-flow-interactive-website/qatar-museums/) 
 
 
 ## Description
